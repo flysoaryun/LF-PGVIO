@@ -29,4 +29,11 @@ If you use our code or dataset, please consider referencing the following paper:
 **LF-PGVIO: A Visual-Inertial-Odometry Framework for Large Field-of-View Cameras using Points and Geodesic Segments.**
 Z. Wang, K. Yang, H. Shi, Y. Zhang, F. Gao, K. Wang. 
 
-
+```
+@article{LF-PGVIO,
+  title={LF-PGVIO: A Visual-Inertial-Odometry Framework for Large Field-of-View Cameras using Points and Geodesic Segments},
+  author={Wang, Ze and Yang, Kailun and Shi, Hao and Zhang, Yufan and Gao, Fei and Wang, Kaiwei},
+  journal={arXiv preprint arXiv:2306.06663},
+  year={2023}
+}
+```
