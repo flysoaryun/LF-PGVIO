@@ -1,4 +1,4 @@
-### LF-PGVIO: A Visual-Inertial-Odometry Framework for Large Field-of-View Cameras using Points and Geodesic Segments [[PDF]]
+### LF-PGVIO: A Visual-Inertial-Odometry Framework for Large Field-of-View Cameras using Points and Geodesic Segments [[PDF]](https://arxiv.org/abs/2306.06663)
 Ze Wang, [Kailun Yang](https://yangkailun.com/), Hao Shi, Yufan Zhang, [Fei Gao](http://zju-fast.com/fei-gao/), [Kaiwei Wang](http://wangkaiwei.org/indexeg.html).
 
 
@@ -28,4 +28,5 @@ If you use our code or dataset, please consider referencing the following paper:
 
 **LF-PGVIO: A Visual-Inertial-Odometry Framework for Large Field-of-View Cameras using Points and Geodesic Segments.**
 Z. Wang, K. Yang, H. Shi, Y. Zhang, F. Gao, K. Wang. 
+
 
