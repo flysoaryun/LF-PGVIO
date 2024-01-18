@@ -87,7 +87,7 @@ extrinsicRotation: !!opencv-matrix
    dt: d
    data: [0.9933825736079961, -0.006214058066792618, -0.1146841224158635,
          0.009561962263699604, 0.9995433275449167, 0.02866540141185659,
-         0.1144536208672395, -0.02957231547880238, 0.9929883417380088]
+1         0.1144536208672395, -0.02957231547880238, 0.9929883417380088]
 extrinsicTranslation: !!opencv-matrix
    rows: 3
    cols: 1
@@ -107,10 +107,16 @@ pairs with dorth less than 5 pixels and overlap greater than 0.5. The green line
 ## Our LF-PGVIO algorithm
 <img src="figures\LF-PGVIO_flow.png" alt="LF-PGVIO_flow" style="zoom: 100%;" />
 
+### Geodesic Segments
+
+<img src="figures\geodesic_seg.png" alt="LF-PGVIO_geodesic_seg" width="500" />
+
+The projection from an orange 3D line onto a geodesic segment on a unit sphere, and a geodesic segment onto a curved segment on an image. The red dashed line is the great circle where the geodesic segment lies and the green vector represents one of the unit vectors that is perpendicular to the plane containing the great circle.
+
 ### Line feature residual
 <img src="figures\Line_res.png" alt="LF-PGVIO_Line_res" width="500" />
 
-Please refer to our paper for details.
+Line feature residual. The orange 3D line is projected onto orange geodesic segments in different image frames. $\mathbf{p}_s$ and $\mathbf{p}_e$ are observed geodesic segments endpoints.
 
 ## Outdoor experiment
 <img src="figures\car_OD_exp.png" alt="LF-PGVIO_car" style="zoom: 100%;" />
