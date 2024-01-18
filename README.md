@@ -10,7 +10,7 @@ ID01~ID10: [**Baidu Yun**](https://pan.baidu.com/s/1o6TgcDwfcDIFl6n9dzsysA), Cod
 OD01~OD02: [**Baidu Yun**](https://pan.baidu.com/s/10suy_WEne2ExHogQtcC_IQ), Code: vbaq
 
 ## Different FoVs and Images
-<img src="figures\All_FoV.png" alt="All_FoV" style="zoom: 6%;" />
+<img src="figures\All_FoV.png" alt="All_FoV" width="500" />
 
 ## Our OCSD algorithm
 <img src="figures\OCSD_benchmark.png" alt="OCSD_benchmark" style="zoom: 100%;" />
@@ -21,8 +21,14 @@ pairs with dorth less than 5 pixels and overlap greater than 0.5. The green line
 ## Our LF-PGVIO algorithm
 <img src="figures\LF-PGVIO_flow.png" alt="LF-PGVIO_flow" style="zoom: 100%;" />
 
+### Line feature residual
+<img src="figures\Line_res.png" alt="LF-PGVIO_Line_res" width="500" />
+
 Please refer to our paper for details.
 
+## Outdoor experiment
+<img src="figures\car_OD_exp.png" alt="LF-PGVIO_car" style="zoom: 100%;" />
+(a) Our car experiment platform with a Panoramic Annular Lens (PAL) camera, a Livox-Mid-360 LiDAR, an IMU sensor, and an onboard computer. (b) Top view of trajectories of different algorithms and ground truth for the OD01 sequence in outdoor experiments. The car platform stacks images in a residual manner with a 0.5s interval on the first frame, and the trajectory aligns with the ground truth.
 
 
 ## Publication
