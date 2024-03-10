@@ -1,6 +1,7 @@
 ### LF-PGVIO: A Visual-Inertial-Odometry Framework for Large Field-of-View Cameras using Points and Geodesic Segments [[PDF]](https://arxiv.org/abs/2306.06663)
-Ze Wang, [Kailun Yang](https://yangkailun.com/), Hao Shi, Yufan Zhang, [Fei Gao](http://zju-fast.com/fei-gao/), [Kaiwei Wang](http://wangkaiwei.org/indexeg.html).
+Ze Wang, [Kailun Yang](https://yangkailun.com/), Hao Shi, Yufan Zhang, Zhijie Xu, [Fei Gao](http://zju-fast.com/fei-gao/), [Kaiwei Wang](http://wangkaiwei.org/indexeg.html).
 
+IEEE Transactions on Intelligent Vehicles (T-IV), 2024.
 
 ## Download PALVIO Dataset
 
@@ -127,13 +128,15 @@ Line feature residual. The orange 3D line is projected onto orange geodesic segm
 If you use our code or dataset, please consider referencing the following paper:
 
 **LF-PGVIO: A Visual-Inertial-Odometry Framework for Large Field-of-View Cameras using Points and Geodesic Segments.**
-Z. Wang, K. Yang, H. Shi, Y. Zhang, F. Gao, K. Wang. 
+Z. Wang, K. Yang, H. Shi, Y. Zhang, Z. Xu, F. Gao, K. Wang. 
+
+IEEE Transactions on Intelligent Vehicles (T-IV), 2024.
 
 ```
 @article{LF-PGVIO,
   title={LF-PGVIO: A Visual-Inertial-Odometry Framework for Large Field-of-View Cameras using Points and Geodesic Segments},
-  author={Wang, Ze and Yang, Kailun and Shi, Hao and Zhang, Yufan and Gao, Fei and Wang, Kaiwei},
-  journal={arXiv preprint arXiv:2306.06663},
-  year={2023}
+  author={Wang, Ze and Yang, Kailun and Shi, Hao and Zhang, Yufan and Xu, Zhijie and Gao, Fei and Wang, Kaiwei},
+  journal={IEEE Transactions on Intelligent Vehicles},
+  year={2024}
 }
 ```
