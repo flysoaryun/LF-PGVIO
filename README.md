@@ -128,6 +128,7 @@ Line feature residual. The orange 3D line is projected onto orange geodesic segm
 If you use our code or dataset, please consider referencing the following paper:
 
 **LF-PGVIO: A Visual-Inertial-Odometry Framework for Large Field-of-View Cameras using Points and Geodesic Segments.**
+
 Z. Wang, K. Yang, H. Shi, Y. Zhang, Z. Xu, F. Gao, K. Wang. 
 
 IEEE Transactions on Intelligent Vehicles (T-IV), 2024.
