@@ -123,6 +123,17 @@ Line feature residual. The orange 3D line is projected onto orange geodesic segm
 <img src="figures\car_OD_exp.png" alt="LF-PGVIO_car" style="zoom: 100%;" />
 (a) Our car experiment platform with a Panoramic Annular Lens (PAL) camera, a Livox-Mid-360 LiDAR, an IMU sensor, and an onboard computer. (b) Top view of trajectories of different algorithms and ground truth for the OD01 sequence in outdoor experiments. The car platform stacks images in a residual manner with a 0.5s interval on the first frame, and the trajectory aligns with the ground truth.
 
+## How to run OCSD
+1、Build OCSD
+
+Clone the repository and make:
+```
+    git clone https://github.com/flysoaryun/LF-PGVIO.git
+    mkdir build
+    cmake ..
+    make -j4
+    ./ocsd_main
+```
 
 ## Publication
 If you use our code or dataset, please consider referencing the following paper:

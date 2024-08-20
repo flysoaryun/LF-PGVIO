@@ -1,0 +1,12 @@
+# img_pth: "/home/wt/LF-VIO/mytools/rosbag2img/ID01/1640298783.228439.png"
+# img2_pth: "/home/wt/LF-VIO/mytools/rosbag2img/ID01/1640298781.032087.png"
+img_pth: "/home/wt/LF-VIO/mytools/GMS/img/288-180-loop.jpg"
+img2_pth: "/home/wt/LF-VIO/mytools/GMS/img/288-180-old.jpg"
+# rotation_angle: 45
+rotation_angle: 0
+# img2_pth: "/home/wt/LF-VIO/mytools/rosbag2img/ID01/1640298778.125986.png"
+# rotation_angle: -180
+
+flag: 0
+flag2: 0
+num_points: 500
