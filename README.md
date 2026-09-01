@@ -1,3 +1,5 @@
+
+
 ### LF-PGVIO: A Visual-Inertial-Odometry Framework for Large Field-of-View Cameras using Points and Geodesic Segments [[PDF]](https://arxiv.org/abs/2306.06663)
 Ze Wang, [Kailun Yang](https://yangkailun.com/), Hao Shi, Yufan Zhang, Zhijie Xu, [Fei Gao](http://zju-fast.com/fei-gao/), [Kaiwei Wang](http://wangkaiwei.org/indexeg.html).
 
@@ -21,7 +23,7 @@ Pal_camera:
 ```
 Fov: 360°x(40°~120°)
 
-Resolution ratio: 1280x720
+Resolution ratio: 1280x960
 
 Lens: Designed by Hangzhou HuanJun Technology.
 
